@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-countainer {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.image-countainer {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.image {
+    max-width: 600px;
+    width: 100%;
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+    min-width: 600px;
+}
+
+.button{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev,
+.next{
+    width: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
